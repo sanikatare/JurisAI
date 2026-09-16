@@ -1,0 +1,5 @@
+Feature_Name,Baseline_Samples,Current_Samples,PSI_Score,Status,Timestamp
+TransactionAmt,1500,500,0.04210,NORMAL,2026-09-17T00:18:00Z
+card1_prior_tx_count,1500,500,0.08150,NORMAL,2026-09-17T00:18:00Z
+graph_shared_device_prior_tx_count,1500,500,0.11200,WARNING,2026-09-17T00:18:00Z
+anomaly_score,1500,500,0.03120,NORMAL,2026-09-17T00:18:00Z

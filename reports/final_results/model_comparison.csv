@@ -1,0 +1,5 @@
+Model_Name,Imbalance_Strategy,Feature_Set,PR_AUC,Recall_at_1pct_FPR,Precision,Recall,F1_Score,ROC_AUC,Inference_Latency_ms
+Logistic_Regression,None,Tabular+Behavioral,0.58420,0.42000,0.52170,0.60000,0.55810,0.81200,0.00120
+Random_Forest,None,Tabular+Behavioral,0.90210,0.78000,0.94120,0.68420,0.79210,0.96540,0.01450
+XGBoost,None,Tabular+Behavioral,0.91450,0.81500,0.92310,0.73080,0.81580,0.97120,0.00850
+Calibrated_Random_Forest,Class_Weight,Tabular+Behavioral+Graph+Anomaly,0.92310,0.84210,0.94120,0.84210,0.88890,0.97500,0.01520

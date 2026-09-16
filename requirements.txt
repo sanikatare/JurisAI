@@ -1,0 +1,24 @@
+# Core data handling
+pandas>=2.0
+numpy>=1.24
+
+# Database
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+
+# Config / env
+pyyaml>=6.0
+python-dotenv>=1.0
+
+# EDA (used only inside notebooks/, not in src/ pipeline code)
+matplotlib>=3.7
+seaborn>=0.12
+
+# Testing
+pytest>=7.4
+
+# NOTE: scikit-learn, xgboost, shap, networkx, torch-geometric, faiss,
+# and any LLM SDK are intentionally NOT included in Phase 2 — they belong
+# to Phase 3 (ML), Phase 4 (Graph/XAI) and Phase 5 (GenAI/RAG) respectively.
+# Keeping Phase 2's dependency footprint minimal is itself a design decision:
+# the data foundation should be usable/testable without pulling in ML stacks.

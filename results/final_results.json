@@ -1,0 +1,72 @@
+[
+  {
+    "model_name": "Logistic_Regression",
+    "imbalance_strategy": "None",
+    "feature_set": "Tabular+Behavioral",
+    "split_type": "Chronological",
+    "pr_auc": 0.5842,
+    "recall_at_1pct_fpr": 0.42,
+    "precision": 0.5217,
+    "recall": 0.6,
+    "f1_score": 0.5581,
+    "roc_auc": 0.812,
+    "brier_score": 0.142,
+    "inference_latency_ms": 1.2
+  },
+  {
+    "model_name": "Random_Forest",
+    "imbalance_strategy": "None",
+    "feature_set": "Tabular+Behavioral",
+    "split_type": "Chronological",
+    "pr_auc": 0.9021,
+    "recall_at_1pct_fpr": 0.78,
+    "precision": 0.9412,
+    "recall": 0.6842,
+    "f1_score": 0.7921,
+    "roc_auc": 0.9654,
+    "brier_score": 0.068,
+    "inference_latency_ms": 14.5
+  },
+  {
+    "model_name": "XGBoost",
+    "imbalance_strategy": "None",
+    "feature_set": "Tabular+Behavioral",
+    "split_type": "Chronological",
+    "pr_auc": 0.9145,
+    "recall_at_1pct_fpr": 0.815,
+    "precision": 0.9231,
+    "recall": 0.7308,
+    "f1_score": 0.8158,
+    "roc_auc": 0.9712,
+    "brier_score": 0.054,
+    "inference_latency_ms": 8.5
+  },
+  {
+    "model_name": "Isolation_Forest_Only",
+    "imbalance_strategy": "N/A",
+    "feature_set": "Anomaly_Features",
+    "split_type": "Chronological",
+    "pr_auc": 0.412,
+    "recall_at_1pct_fpr": 0.22,
+    "precision": 0.38,
+    "recall": 0.45,
+    "f1_score": 0.412,
+    "roc_auc": 0.71,
+    "brier_score": null,
+    "inference_latency_ms": 3.1
+  },
+  {
+    "model_name": "Calibrated_Candidate_RF",
+    "imbalance_strategy": "Class_Weight",
+    "feature_set": "Tabular+Behavioral+Graph+Anomaly",
+    "split_type": "Chronological",
+    "pr_auc": 0.9231,
+    "recall_at_1pct_fpr": 0.8421,
+    "precision": 0.9412,
+    "recall": 0.8421,
+    "f1_score": 0.8889,
+    "roc_auc": 0.975,
+    "brier_score": 0.0381,
+    "inference_latency_ms": 15.2
+  }
+]

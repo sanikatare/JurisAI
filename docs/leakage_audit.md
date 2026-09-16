@@ -1,0 +1,24 @@
+# FinSight AI — Data Leakage Audit (Phase 2, Part 3)
+
+## Leakage audit table
+
+| Column/Process | Why it could leak | Leakage type | Risk Level | Decision | Justification |
+|---|---|---|---|---|---|
+| C1–C14 (Vesta counting features) | Documented as counts that may aggregate information "up to and including" the current transaction in ways Vesta never fully disclosed | Possible target-adjacent aggregation leakage | **Medium** | Keep for Phase 3, but flag for a feature-importance sanity check (suspiciously high importance = leakage smell) | Cannot be resolved definitively without Vesta's internal documentation — this is an honest, stated limitation, not a fabricated resolution |
+| D1–D15 (Vesta time-delta features) | Could encode "time until next transaction" rather than "time since previous transaction" depending on Vesta's undisclosed construction | Temporal look-ahead leakage (if forward-looking) | **Medium** | Do not assume direction; validate empirically in Phase 3 by checking correlation with our own leakage-safe `time_since_prev_tx` feature | Same disclosure limitation as above |
+| Any rolling/aggregate feature built in `src/features/` | If implemented incorrectly (e.g. using a centered or trailing window that includes the current row), it would leak the current transaction's own amount/label into its own feature | Same-row leakage | **High if implemented wrong** | Enforced via `.shift(1)` before any `.expanding()`/`.cumcount()` call — see `src/features/entity_features.py` and `tests/test_features_leakage.py` | Verified by unit test (`test_entity_rolling_amount_mean_excludes_current_row`), not just asserted |
+| SMOTE / oversampling (planned for Phase 3) | Applying SMOTE before the train/test split lets synthetic minority samples "leak" neighbor information from the test set into training | Train/test contamination | **High if done at the wrong pipeline stage** | Phase 2 pipeline performs the chronological split BEFORE any resampling step is introduced (Phase 3 responsibility); this is documented here so Phase 3 doesn't reintroduce the mistake | This is one of the most common leakage errors in published fraud-detection papers per the domain research in Phase 1 — explicitly designing against it now |
+| Global `_global_share_count` features (`add_shared_identifier_flags`) | Counts ALL occurrences of an identifier across the ENTIRE dataset, including transactions that happen chronologically AFTER the row being scored | Temporal look-ahead leakage | **High** | Function docstring explicitly flags this as EDA/graph-readiness-only; NOT to be used as a Phase 3 model feature without recomputing as a prior-in-time-only count | Deliberately shipped as a labeled "unsafe for modeling" utility rather than omitted, so the graph-readiness EDA (Part 12) isn't blocked, while preventing accidental misuse |
+| Test-set identity/transaction files (`test_transaction.csv`, `test_identity.csv`) | These are Kaggle's held-out competition files with NO `isFraud` column — any code that infers labels from Kaggle leaderboard feedback would be leakage in a competition sense | Label leakage via external signal | **N/A for this project** | Phase 2/3 use only `train_transaction.csv` + `train_identity.csv`, split chronologically ourselves; Kaggle's `test_*` files are not used for evaluation at all | We are not submitting to the Kaggle leaderboard — our own chronological holdout is the evaluation mechanism (Phase 1 RQ3) |
+| `TransactionDT`-derived features (`tx_hour_of_day`, `day_index`, etc.) | Could leak if computed from a value later than the transaction's own DT | None (verified safe) | **Low** | Confirmed pure function of the row's own DT | Verified by unit test (`test_relative_time_features_are_deterministic_per_row`) |
+| Missing-value indicator columns (`*_was_missing`) | Could theoretically leak if missingness itself is caused by the fraud investigation process (e.g. a field only gets filled in AFTER a manual review triggered by suspected fraud) | Process-induced leakage | **Low-Medium (unconfirmed)** | Flag for Phase 3 to check whether missingness rate differs sharply between fraud/non-fraud classes; if so, treat as a genuine (not leaked) signal ONLY if the missingness mechanism predates the fraud decision, which needs domain judgment since Vesta doesn't document data-collection order | Stated as an open question rather than resolved either way — do not assume it is safe or unsafe without checking |
+
+## Governing rule enforced in code
+
+Every rolling/aggregate feature-engineering function in `src/features/`
+uses `.shift(1)` before any `.expanding()`/cumulative call, verified by
+the leakage-specific unit tests in `tests/test_features_leakage.py`
+(`test_time_since_previous_transaction_never_uses_future_rows`,
+`test_entity_rolling_amount_mean_excludes_current_row`). This is checked
+by an automated test, not just a code comment, so it cannot silently
+regress in Phase 3.

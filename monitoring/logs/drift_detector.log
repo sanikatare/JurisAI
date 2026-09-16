@@ -1,0 +1,15 @@
+2026-09-17 00:23:53 | INFO     | drift_detector | Baseline distributions set for 1 numerical features.
+2026-09-17 00:23:53 | INFO     | drift_detector | Feature Drift Evaluated [amt]: PSI=0.0577 (Status=NORMAL)
+2026-09-17 00:23:53 | INFO     | drift_detector | Feature Drift Evaluated [amt]: PSI=6.9088 (Status=DRIFT)
+2026-09-17 00:24:19 | INFO     | drift_detector | Baseline distributions set for 1 numerical features.
+2026-09-17 00:24:19 | INFO     | drift_detector | Feature Drift Evaluated [amt]: PSI=0.0577 (Status=NORMAL)
+2026-09-17 00:24:19 | INFO     | drift_detector | Feature Drift Evaluated [amt]: PSI=6.9088 (Status=DRIFT)
+2026-09-17 00:25:45 | INFO     | drift_detector | Baseline distributions set for 1 numerical features.
+2026-09-17 00:25:45 | INFO     | drift_detector | Feature Drift Evaluated [amt]: PSI=0.0577 (Status=NORMAL)
+2026-09-17 00:25:45 | INFO     | drift_detector | Feature Drift Evaluated [amt]: PSI=6.9088 (Status=DRIFT)
+2026-09-17 00:32:44 | INFO     | drift_detector | Baseline distributions set for 1 numerical features.
+2026-09-17 00:32:44 | INFO     | drift_detector | Feature Drift Evaluated [amt]: PSI=0.0577 (Status=NORMAL)
+2026-09-17 00:32:44 | INFO     | drift_detector | Feature Drift Evaluated [amt]: PSI=6.9088 (Status=DRIFT)
+2026-09-17 00:36:27 | INFO     | drift_detector | Baseline distributions set for 1 numerical features.
+2026-09-17 00:36:27 | INFO     | drift_detector | Feature Drift Evaluated [amt]: PSI=0.0577 (Status=NORMAL)
+2026-09-17 00:36:27 | INFO     | drift_detector | Feature Drift Evaluated [amt]: PSI=6.9088 (Status=DRIFT)

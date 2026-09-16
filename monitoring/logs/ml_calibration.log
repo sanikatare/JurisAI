@@ -1,0 +1,10 @@
+2026-09-17 00:09:49 | INFO     | ml_calibration | ProbabilityCalibrator (platt) fitted on 8 validation samples.
+2026-09-17 00:10:50 | INFO     | ml_calibration | ProbabilityCalibrator (platt) fitted on 500 validation samples.
+2026-09-17 00:10:50 | INFO     | ml_calibration | Probability Calibration Assessment: Raw Brier=0.00781, Calibrated Brier=0.00114 (85.37% improvement)
+2026-09-17 00:16:56 | INFO     | ml_calibration | ProbabilityCalibrator (platt) fitted on 8 validation samples.
+2026-09-17 00:17:27 | INFO     | ml_calibration | ProbabilityCalibrator (platt) fitted on 8 validation samples.
+2026-09-17 00:23:54 | INFO     | ml_calibration | ProbabilityCalibrator (platt) fitted on 8 validation samples.
+2026-09-17 00:24:20 | INFO     | ml_calibration | ProbabilityCalibrator (platt) fitted on 8 validation samples.
+2026-09-17 00:25:46 | INFO     | ml_calibration | ProbabilityCalibrator (platt) fitted on 8 validation samples.
+2026-09-17 00:32:44 | INFO     | ml_calibration | ProbabilityCalibrator (platt) fitted on 8 validation samples.
+2026-09-17 00:36:26 | INFO     | ml_calibration | ProbabilityCalibrator (platt) fitted on 8 validation samples.

@@ -1,0 +1,42 @@
+# FinSight AI — Phase 2 configuration
+# All paths/params live here so src/ never hardcodes machine-specific paths.
+
+paths:
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+  reports_dir: "reports"
+
+files:
+  # IEEE-CIS primary dataset (Phase 1 decision — see docs/data_dictionary.md)
+  train_transaction: "train_transaction.csv"
+  train_identity: "train_identity.csv"
+  test_transaction: "test_transaction.csv"
+  test_identity: "test_identity.csv"
+  # PaySim secondary/validation dataset (optional at Phase 2 stage)
+  paysim: "PS_20174392719_1491204439457_log.csv"
+
+dataset:
+  target_column: "isFraud"
+  id_column: "TransactionID"
+  time_column: "TransactionDT"          # seconds elapsed from a reference point, NOT a real calendar timestamp
+  amount_column: "TransactionAmt"
+
+cleaning:
+  # Columns known (from the public IEEE-CIS documentation) to be almost
+  # entirely missing across many V/id_ columns are NOT hardcoded to a
+  # fixed drop-list here — profile.py computes actual missingness first,
+  # and the drop threshold below is applied to the REAL measured values.
+  missing_threshold_drop: 0.95          # drop a column only if >95% missing IN THE ACTUAL DATA
+  high_cardinality_threshold: 5000      # flag (not auto-drop) categoricals above this unique count
+
+temporal:
+  # TransactionDT is relative seconds, not a date. We treat it as an ordinal
+  # timeline for chronological splitting; we do NOT invent a calendar date.
+  train_fraction: 0.6
+  validation_fraction: 0.2
+  test_fraction: 0.2
+
+logging:
+  level: "INFO"
+  log_dir: "reports/logs"

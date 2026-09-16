@@ -1,0 +1,90 @@
+2026-09-17 00:16:54 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:16:55 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:16:55 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:16:55 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:16:57 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 00:17:25 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:17:26 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:17:26 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:17:26 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:17:28 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 00:23:51 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:23:52 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:23:52 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:23:54 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:23:56 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 00:24:17 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:24:18 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:24:18 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:24:20 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:24:22 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 00:25:44 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:25:44 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:25:44 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:25:45 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:25:47 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 00:32:26 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:32:27 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:32:42 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:32:42 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:32:43 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:32:43 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:32:43 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:32:44 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:32:46 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 00:36:22 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:36:23 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:36:23 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:36:24 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:36:24 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:36:24 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:36:27 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 00:38:58 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:38:58 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:38:58 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:39:00 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:39:00 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:39:00 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:39:04 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 00:42:35 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:42:35 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:42:35 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:42:36 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:42:36 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:42:36 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:42:38 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 00:53:11 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:53:11 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:53:12 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:53:12 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:53:13 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:53:13 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:53:16 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 00:53:44 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:53:44 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:53:44 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 00:53:45 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:53:45 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:53:45 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 00:53:47 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 01:02:25 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 01:02:25 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 01:02:25 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 01:02:26 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 01:02:27 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 01:02:27 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 01:02:29 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 01:06:46 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 01:06:47 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 01:06:47 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 01:06:48 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 01:06:48 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 01:06:49 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 01:06:51 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']
+2026-09-17 01:10:02 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 01:10:02 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 01:10:02 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-001']
+2026-09-17 01:10:03 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 01:10:03 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 01:10:03 | INFO     | genai_citations | Citation validation passed cleanly (4 verified citations).
+2026-09-17 01:10:05 | WARNING  | genai_citations | Citation validation failed! Found 1 invalid/fabricated citations: ['RAG-999']

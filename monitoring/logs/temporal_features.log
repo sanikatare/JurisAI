@@ -1,0 +1,35 @@
+2026-09-16 18:17:14 | INFO     | temporal_features | Added tx_hour_of_day, tx_day_of_cycle, tx_day_index from TransactionDT
+2026-09-16 18:17:14 | INFO     | temporal_features | Added time_since_prev_tx per entity (NaN for each entity's first observed transaction is expected and meaningful, not missing data).
+2026-09-16 18:17:14 | INFO     | temporal_features | Chronological split -> train: 3 rows (100 to 300), val: 1 rows, test: 1 rows
+2026-09-16 18:17:28 | INFO     | temporal_features | Added tx_hour_of_day, tx_day_of_cycle, tx_day_index from TransactionDT
+2026-09-16 18:17:28 | INFO     | temporal_features | Added time_since_prev_tx per entity (NaN for each entity's first observed transaction is expected and meaningful, not missing data).
+2026-09-16 18:17:28 | INFO     | temporal_features | Chronological split -> train: 3 rows (100 to 300), val: 1 rows, test: 1 rows
+2026-09-17 00:05:14 | INFO     | temporal_features | Added tx_hour_of_day, tx_day_of_cycle, tx_day_index from TransactionDT
+2026-09-17 00:05:14 | INFO     | temporal_features | Added time_since_prev_tx per entity (NaN for each entity's first observed transaction is expected and meaningful, not missing data).
+2026-09-17 00:05:14 | INFO     | temporal_features | Chronological split -> train: 3 rows (100 to 300), val: 1 rows, test: 1 rows
+2026-09-17 00:09:49 | INFO     | temporal_features | Added tx_hour_of_day, tx_day_of_cycle, tx_day_index from TransactionDT
+2026-09-17 00:09:49 | INFO     | temporal_features | Added time_since_prev_tx per entity (NaN for each entity's first observed transaction is expected and meaningful, not missing data).
+2026-09-17 00:09:49 | INFO     | temporal_features | Chronological split -> train: 3 rows (100 to 300), val: 1 rows, test: 1 rows
+2026-09-17 00:10:42 | INFO     | temporal_features | Added tx_hour_of_day, tx_day_of_cycle, tx_day_index from TransactionDT
+2026-09-17 00:10:42 | INFO     | temporal_features | Added time_since_prev_tx per card1 (NaN for each entity's first observed transaction is expected and meaningful, not missing data).
+2026-09-17 00:16:55 | INFO     | temporal_features | Added tx_hour_of_day, tx_day_of_cycle, tx_day_index from TransactionDT
+2026-09-17 00:16:55 | INFO     | temporal_features | Added time_since_prev_tx per entity (NaN for each entity's first observed transaction is expected and meaningful, not missing data).
+2026-09-17 00:16:55 | INFO     | temporal_features | Chronological split -> train: 3 rows (100 to 300), val: 1 rows, test: 1 rows
+2026-09-17 00:17:26 | INFO     | temporal_features | Added tx_hour_of_day, tx_day_of_cycle, tx_day_index from TransactionDT
+2026-09-17 00:17:26 | INFO     | temporal_features | Added time_since_prev_tx per entity (NaN for each entity's first observed transaction is expected and meaningful, not missing data).
+2026-09-17 00:17:26 | INFO     | temporal_features | Chronological split -> train: 3 rows (100 to 300), val: 1 rows, test: 1 rows
+2026-09-17 00:23:54 | INFO     | temporal_features | Added tx_hour_of_day, tx_day_of_cycle, tx_day_index from TransactionDT
+2026-09-17 00:23:54 | INFO     | temporal_features | Added time_since_prev_tx per entity (NaN for each entity's first observed transaction is expected and meaningful, not missing data).
+2026-09-17 00:23:54 | INFO     | temporal_features | Chronological split -> train: 3 rows (100 to 300), val: 1 rows, test: 1 rows
+2026-09-17 00:24:19 | INFO     | temporal_features | Added tx_hour_of_day, tx_day_of_cycle, tx_day_index from TransactionDT
+2026-09-17 00:24:19 | INFO     | temporal_features | Added time_since_prev_tx per entity (NaN for each entity's first observed transaction is expected and meaningful, not missing data).
+2026-09-17 00:24:20 | INFO     | temporal_features | Chronological split -> train: 3 rows (100 to 300), val: 1 rows, test: 1 rows
+2026-09-17 00:25:45 | INFO     | temporal_features | Added tx_hour_of_day, tx_day_of_cycle, tx_day_index from TransactionDT
+2026-09-17 00:25:45 | INFO     | temporal_features | Added time_since_prev_tx per entity (NaN for each entity's first observed transaction is expected and meaningful, not missing data).
+2026-09-17 00:25:45 | INFO     | temporal_features | Chronological split -> train: 3 rows (100 to 300), val: 1 rows, test: 1 rows
+2026-09-17 00:32:44 | INFO     | temporal_features | Added tx_hour_of_day, tx_day_of_cycle, tx_day_index from TransactionDT
+2026-09-17 00:32:44 | INFO     | temporal_features | Added time_since_prev_tx per entity (NaN for each entity's first observed transaction is expected and meaningful, not missing data).
+2026-09-17 00:32:44 | INFO     | temporal_features | Chronological split -> train: 3 rows (100 to 300), val: 1 rows, test: 1 rows
+2026-09-17 00:36:26 | INFO     | temporal_features | Added tx_hour_of_day, tx_day_of_cycle, tx_day_index from TransactionDT
+2026-09-17 00:36:26 | INFO     | temporal_features | Added time_since_prev_tx per entity (NaN for each entity's first observed transaction is expected and meaningful, not missing data).
+2026-09-17 00:36:26 | INFO     | temporal_features | Chronological split -> train: 3 rows (100 to 300), val: 1 rows, test: 1 rows

@@ -1,0 +1,22 @@
+{
+  "model_id": "MOD-RF-2026-V1",
+  "model_name": "Calibrated_Random_Forest",
+  "version": "v1.0.0",
+  "status": "production",
+  "training_date": "2026-09-17",
+  "dataset_version": "IEEE-CIS-Phase3",
+  "metrics": {
+    "pr_auc": 0.9231,
+    "recall_at_1pct_fpr": 0.8421,
+    "f1_score": 0.8889,
+    "roc_auc": 0.975,
+    "brier_score": 0.02047
+  },
+  "threshold": 0.297,
+  "calibration_method": "Platt Scaling (Sigmoid)",
+  "artifact_files": [
+    "model.joblib",
+    "preprocessor.joblib",
+    "calibrator.joblib"
+  ]
+}

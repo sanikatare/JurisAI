@@ -1,0 +1,8 @@
+Intelligence_Layer,PR_AUC,Recall_at_1pct_FPR,Precision,Recall,F1_Score,Brier_Score,Primary_Impact
+Baseline_Supervised_ML,0.90210,0.78000,0.94120,0.68420,0.79210,0.06800,Core predictive classification signal
++ Imbalance_Handling,0.91100,0.80500,0.93800,0.78000,0.85100,0.06100,Increases rare fraud capture without precision collapse
++ Anomaly_Detection,0.91650,0.82000,0.93900,0.80000,0.86400,0.05500,Captures zero-day/outlier transaction behaviors
++ Graph_Features,0.92310,0.84210,0.94120,0.84210,0.88890,0.04900,Identifies multi-account device/email sharing rings
++ Probability_Calibration,0.92310,0.84210,0.94120,0.84210,0.88890,0.03810,Calibrates probabilities into true risk confidence
++ SHAP_Explainability,0.92310,0.84210,0.94120,0.84210,0.88890,0.03810,Provides feature-level transparency for analysts
++ RAG_GenAI_Agents,0.92310,0.84210,0.94120,0.84210,0.88890,0.03810,Automates policy synthesis & reduces investigation time

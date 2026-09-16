@@ -1,0 +1,73 @@
+{
+  "model_a_supervised_alone": {
+    "pr_auc": 1.0,
+    "recall_at_1pct_fpr": 1.0,
+    "recall_at_5pct_fpr": 1.0,
+    "threshold_1pct_fpr": 0.48468,
+    "threshold_5pct_fpr": 0.48468,
+    "precision": 1.0,
+    "recall": 0.94444,
+    "f1": 0.97143,
+    "roc_auc": 1.0,
+    "fpr": 0.0,
+    "fnr": 0.05556,
+    "decision_threshold": 0.5,
+    "confusion_matrix": {
+      "tn": 482,
+      "fp": 0,
+      "fn": 1,
+      "tp": 17
+    },
+    "sample_count": 500,
+    "positive_count": 18,
+    "inference_latency_ms_per_sample": 0.0
+  },
+  "model_b_anomaly_alone": {
+    "pr_auc": 0.19293,
+    "recall_at_1pct_fpr": 0.11111,
+    "recall_at_5pct_fpr": 0.33333,
+    "threshold_1pct_fpr": 0.78631,
+    "threshold_5pct_fpr": 0.71778,
+    "precision": 0.125,
+    "recall": 0.83333,
+    "f1": 0.21739,
+    "roc_auc": 0.85408,
+    "fpr": 0.21784,
+    "fnr": 0.16667,
+    "decision_threshold": 0.5,
+    "confusion_matrix": {
+      "tn": 377,
+      "fp": 105,
+      "fn": 3,
+      "tp": 15
+    },
+    "sample_count": 500,
+    "positive_count": 18,
+    "inference_latency_ms_per_sample": 0.0
+  },
+  "model_c_supervised_plus_anomaly": {
+    "pr_auc": 0.99206,
+    "recall_at_1pct_fpr": 1.0,
+    "recall_at_5pct_fpr": 1.0,
+    "threshold_1pct_fpr": 0.31852,
+    "threshold_5pct_fpr": 0.31852,
+    "precision": 1.0,
+    "recall": 0.94444,
+    "f1": 0.97143,
+    "roc_auc": 0.99965,
+    "fpr": 0.0,
+    "fnr": 0.05556,
+    "decision_threshold": 0.5,
+    "confusion_matrix": {
+      "tn": 482,
+      "fp": 0,
+      "fn": 1,
+      "tp": 17
+    },
+    "sample_count": 500,
+    "positive_count": 18,
+    "inference_latency_ms_per_sample": 0.0
+  },
+  "pr_auc_delta": -0.00794,
+  "recall_at_1pct_fpr_delta": 0.0
+}

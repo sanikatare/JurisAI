@@ -1,0 +1,47 @@
+2026-09-16 18:17:14 | WARNING  | validate | 1 duplicate TransactionID values found â€” this would break a one_to_one primary key assumption downstream.
+2026-09-16 18:17:14 | WARNING  | validate | 1 rows have a negative TransactionAmt. Financial transactions are not expected to be negative in this dataset's documented schema â€” flag for manual review, do NOT silently drop or clip without inspecting a sample first.
+2026-09-16 18:17:14 | WARNING  | validate | 1 column(s) are 100% missing: ['empty_col']
+2026-09-16 18:17:14 | WARNING  | validate | 2 column(s) are constant (<=1 unique value) and carry no predictive information: ['empty_col', 'constant_col']
+2026-09-16 18:17:28 | WARNING  | validate | 1 duplicate TransactionID values found â€” this would break a one_to_one primary key assumption downstream.
+2026-09-16 18:17:28 | WARNING  | validate | 1 rows have a negative TransactionAmt. Financial transactions are not expected to be negative in this dataset's documented schema â€” flag for manual review, do NOT silently drop or clip without inspecting a sample first.
+2026-09-16 18:17:28 | WARNING  | validate | 1 column(s) are 100% missing: ['empty_col']
+2026-09-16 18:17:28 | WARNING  | validate | 2 column(s) are constant (<=1 unique value) and carry no predictive information: ['empty_col', 'constant_col']
+2026-09-17 00:05:14 | WARNING  | validate | 1 duplicate TransactionID values found — this would break a one_to_one primary key assumption downstream.
+2026-09-17 00:05:14 | WARNING  | validate | 1 rows have a negative TransactionAmt. Financial transactions are not expected to be negative in this dataset's documented schema — flag for manual review, do NOT silently drop or clip without inspecting a sample first.
+2026-09-17 00:05:14 | WARNING  | validate | 1 column(s) are 100% missing: ['empty_col']
+2026-09-17 00:05:14 | WARNING  | validate | 2 column(s) are constant (<=1 unique value) and carry no predictive information: ['empty_col', 'constant_col']
+2026-09-17 00:09:50 | WARNING  | validate | 1 duplicate TransactionID values found — this would break a one_to_one primary key assumption downstream.
+2026-09-17 00:09:50 | WARNING  | validate | 1 rows have a negative TransactionAmt. Financial transactions are not expected to be negative in this dataset's documented schema — flag for manual review, do NOT silently drop or clip without inspecting a sample first.
+2026-09-17 00:09:50 | WARNING  | validate | 1 column(s) are 100% missing: ['empty_col']
+2026-09-17 00:09:50 | WARNING  | validate | 2 column(s) are constant (<=1 unique value) and carry no predictive information: ['empty_col', 'constant_col']
+2026-09-17 00:16:58 | WARNING  | validate | 1 duplicate TransactionID values found — this would break a one_to_one primary key assumption downstream.
+2026-09-17 00:16:58 | WARNING  | validate | 1 rows have a negative TransactionAmt. Financial transactions are not expected to be negative in this dataset's documented schema — flag for manual review, do NOT silently drop or clip without inspecting a sample first.
+2026-09-17 00:16:58 | WARNING  | validate | 1 column(s) are 100% missing: ['empty_col']
+2026-09-17 00:16:58 | WARNING  | validate | 2 column(s) are constant (<=1 unique value) and carry no predictive information: ['empty_col', 'constant_col']
+2026-09-17 00:17:28 | WARNING  | validate | 1 duplicate TransactionID values found — this would break a one_to_one primary key assumption downstream.
+2026-09-17 00:17:28 | WARNING  | validate | 1 rows have a negative TransactionAmt. Financial transactions are not expected to be negative in this dataset's documented schema — flag for manual review, do NOT silently drop or clip without inspecting a sample first.
+2026-09-17 00:17:28 | WARNING  | validate | 1 column(s) are 100% missing: ['empty_col']
+2026-09-17 00:17:28 | WARNING  | validate | 2 column(s) are constant (<=1 unique value) and carry no predictive information: ['empty_col', 'constant_col']
+2026-09-17 00:23:56 | WARNING  | validate | 1 duplicate TransactionID values found — this would break a one_to_one primary key assumption downstream.
+2026-09-17 00:23:56 | WARNING  | validate | 1 rows have a negative TransactionAmt. Financial transactions are not expected to be negative in this dataset's documented schema — flag for manual review, do NOT silently drop or clip without inspecting a sample first.
+2026-09-17 00:23:56 | WARNING  | validate | 1 column(s) are 100% missing: ['empty_col']
+2026-09-17 00:23:56 | WARNING  | validate | 2 column(s) are constant (<=1 unique value) and carry no predictive information: ['empty_col', 'constant_col']
+2026-09-17 00:24:22 | WARNING  | validate | 1 duplicate TransactionID values found — this would break a one_to_one primary key assumption downstream.
+2026-09-17 00:24:22 | WARNING  | validate | 1 rows have a negative TransactionAmt. Financial transactions are not expected to be negative in this dataset's documented schema — flag for manual review, do NOT silently drop or clip without inspecting a sample first.
+2026-09-17 00:24:22 | WARNING  | validate | 1 column(s) are 100% missing: ['empty_col']
+2026-09-17 00:24:22 | WARNING  | validate | 2 column(s) are constant (<=1 unique value) and carry no predictive information: ['empty_col', 'constant_col']
+2026-09-17 00:25:47 | WARNING  | validate | 1 duplicate TransactionID values found — this would break a one_to_one primary key assumption downstream.
+2026-09-17 00:25:47 | WARNING  | validate | 1 rows have a negative TransactionAmt. Financial transactions are not expected to be negative in this dataset's documented schema — flag for manual review, do NOT silently drop or clip without inspecting a sample first.
+2026-09-17 00:25:47 | WARNING  | validate | 1 column(s) are 100% missing: ['empty_col']
+2026-09-17 00:25:47 | WARNING  | validate | 2 column(s) are constant (<=1 unique value) and carry no predictive information: ['empty_col', 'constant_col']
+2026-09-17 00:32:26 | WARNING  | validate | 14 column(s) are constant (<=1 unique value) and carry no predictive information: ['TransactionID', 'TransactionDT', 'TransactionAmt', 'ProductCD', 'card1', 'card2', 'card3', 'card4', 'card5', 'card6']...
+2026-09-17 00:32:41 | WARNING  | validate | 14 column(s) are constant (<=1 unique value) and carry no predictive information: ['TransactionID', 'TransactionDT', 'TransactionAmt', 'ProductCD', 'card1', 'card2', 'card3', 'card4', 'card5', 'card6']...
+2026-09-17 00:32:46 | WARNING  | validate | 1 duplicate TransactionID values found — this would break a one_to_one primary key assumption downstream.
+2026-09-17 00:32:46 | WARNING  | validate | 1 rows have a negative TransactionAmt. Financial transactions are not expected to be negative in this dataset's documented schema — flag for manual review, do NOT silently drop or clip without inspecting a sample first.
+2026-09-17 00:32:46 | WARNING  | validate | 1 column(s) are 100% missing: ['empty_col']
+2026-09-17 00:32:46 | WARNING  | validate | 2 column(s) are constant (<=1 unique value) and carry no predictive information: ['empty_col', 'constant_col']
+2026-09-17 00:36:22 | WARNING  | validate | 14 column(s) are constant (<=1 unique value) and carry no predictive information: ['TransactionID', 'TransactionDT', 'TransactionAmt', 'ProductCD', 'card1', 'card2', 'card3', 'card4', 'card5', 'card6']...
+2026-09-17 00:36:26 | WARNING  | validate | 1 duplicate TransactionID values found — this would break a one_to_one primary key assumption downstream.
+2026-09-17 00:36:26 | WARNING  | validate | 1 rows have a negative TransactionAmt. Financial transactions are not expected to be negative in this dataset's documented schema — flag for manual review, do NOT silently drop or clip without inspecting a sample first.
+2026-09-17 00:36:26 | WARNING  | validate | 1 column(s) are 100% missing: ['empty_col']
+2026-09-17 00:36:26 | WARNING  | validate | 2 column(s) are constant (<=1 unique value) and carry no predictive information: ['empty_col', 'constant_col']

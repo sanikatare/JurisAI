@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Geist:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Universal CSS Preflight & Reset */
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-color: #E7E7E5;
+}
+
+html, body {
+  height: 100%;
+  background-color: #FAFAF9;
+  color: #111111;
+  font-family: 'Inter', 'Geist', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Eliminate browser-default blue underline links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Eliminate browser-default buttons */
+button {
+  font-family: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Universal Typography Rules */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: #111111;
+}
+
+/* Custom Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E7E7E5;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #DADAD7;
+}
+
+/* Legal Document Highlighting */
+.clause-highlight-high {
+  background-color: rgba(254, 226, 226, 0.7);
+  border-left: 3px solid #B91C1C;
+  padding-left: 0.75rem;
+}
+
+.clause-highlight-mod {
+  background-color: rgba(254, 243, 199, 0.7);
+  border-left: 3px solid #B45309;
+  padding-left: 0.75rem;
+}
+
+.clause-highlight-low {
+  background-color: rgba(220, 252, 231, 0.7);
+  border-left: 3px solid #15803D;
+  padding-left: 0.75rem;
+}
+
+/* Shimmer Loading Skeleton */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #F7F7F5 25%, #E7E7E5 50%, #F7F7F5 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}

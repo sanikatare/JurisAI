@@ -1,0 +1,257 @@
+2026-09-17 00:16:53 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:16:53 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:16:53 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:16:53 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:16:53 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:16:53 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:16:54 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:16:54 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:16:54 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:16:54 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:16:55 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 00:16:55 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 00:16:55 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:16:57 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:16:57 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'
+2026-09-17 00:17:23 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:17:24 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:17:24 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:17:24 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:17:24 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:17:24 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:17:25 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:17:25 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:17:25 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:17:25 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:17:26 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 00:17:26 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 00:17:26 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:17:28 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:17:28 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'
+2026-09-17 00:23:12 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:12 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:12 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:12 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:12 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:12 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:50 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:50 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:50 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:50 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:50 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:50 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:51 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:51 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:23:51 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:23:51 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:23:52 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 00:23:52 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 00:23:52 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:23:56 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:23:56 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'
+2026-09-17 00:24:16 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:24:16 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:24:16 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:24:16 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:24:16 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:24:16 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:24:17 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:24:17 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:24:17 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:24:18 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:24:18 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 00:24:18 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 00:24:18 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:24:22 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:24:22 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'
+2026-09-17 00:25:42 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:25:42 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:25:43 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:25:43 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:25:43 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:25:43 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:25:44 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:25:44 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:25:44 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:25:44 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:25:44 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 00:25:44 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 00:25:44 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:25:47 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:25:47 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'
+2026-09-17 00:29:22 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:29:23 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:26 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:26 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:26 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'What is the step-up verification requirement for high risk transactions?'
+2026-09-17 00:32:27 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:27 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:32:41 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:41 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:41 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:41 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:41 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:41 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:42 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:42 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'What is the step-up verification requirement for high risk transactions?'
+2026-09-17 00:32:42 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:32:42 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:42 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:32:43 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:32:43 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:32:43 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 00:32:43 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 00:32:43 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:32:46 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:32:46 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'
+2026-09-17 00:36:21 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:36:21 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:36:21 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:36:21 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:36:21 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:36:22 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:36:22 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:36:22 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'What is the step-up verification requirement for high risk transactions?'
+2026-09-17 00:36:22 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:36:24 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:36:24 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:36:24 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:36:24 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:36:24 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 00:36:24 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 00:36:24 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:36:27 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:36:27 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'
+2026-09-17 00:38:56 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:38:56 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:38:57 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:38:57 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:38:57 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:38:57 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:38:58 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:38:58 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'What is the step-up verification requirement for high risk transactions?'
+2026-09-17 00:38:58 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:38:59 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:38:59 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:39:00 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:39:00 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:39:00 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 00:39:00 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 00:39:00 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:39:04 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:39:04 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'
+2026-09-17 00:42:34 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:42:34 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:42:34 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:42:34 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:42:34 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:42:34 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:42:35 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:42:35 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'What is the step-up verification requirement for high risk transactions?'
+2026-09-17 00:42:35 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:42:35 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:42:35 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:42:36 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:42:36 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:42:36 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 00:42:36 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 00:42:36 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:42:38 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:42:38 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'
+2026-09-17 00:53:10 | WARNING  | rag_hybrid | No knowledge base documents found to index.
+2026-09-17 00:53:10 | WARNING  | rag_hybrid | No knowledge base documents found to index.
+2026-09-17 00:53:10 | WARNING  | rag_hybrid | No knowledge base documents found to index.
+2026-09-17 00:53:11 | WARNING  | rag_hybrid | No knowledge base documents found to index.
+2026-09-17 00:53:11 | WARNING  | rag_hybrid | No knowledge base documents found to index.
+2026-09-17 00:53:11 | WARNING  | rag_hybrid | No knowledge base documents found to index.
+2026-09-17 00:53:11 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:53:11 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'What is the step-up verification requirement for high risk transactions?'
+2026-09-17 00:53:11 | WARNING  | rag_hybrid | Hybrid retriever is empty or unindexed.
+2026-09-17 00:53:12 | WARNING  | rag_hybrid | No knowledge base documents found to index.
+2026-09-17 00:53:12 | WARNING  | rag_hybrid | Hybrid retriever is empty or unindexed.
+2026-09-17 00:53:12 | WARNING  | rag_hybrid | Hybrid retriever is empty or unindexed.
+2026-09-17 00:53:12 | WARNING  | rag_hybrid | Hybrid retriever is empty or unindexed.
+2026-09-17 00:53:13 | WARNING  | rag_hybrid | Hybrid retriever is empty or unindexed.
+2026-09-17 00:53:13 | WARNING  | rag_hybrid | Hybrid retriever is empty or unindexed.
+2026-09-17 00:53:13 | WARNING  | rag_hybrid | Hybrid retriever is empty or unindexed.
+2026-09-17 00:53:16 | WARNING  | rag_hybrid | No knowledge base documents found to index.
+2026-09-17 00:53:16 | WARNING  | rag_hybrid | Hybrid retriever is empty or unindexed.
+2026-09-17 00:53:43 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:53:43 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:53:43 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:53:43 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:53:43 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:53:43 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:53:44 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:53:44 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'What is the step-up verification requirement for high risk transactions?'
+2026-09-17 00:53:44 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:53:45 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:53:45 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:53:45 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:53:45 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:53:45 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 00:53:45 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 00:53:45 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 00:53:47 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 00:53:47 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'
+2026-09-17 01:02:24 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:02:24 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:02:24 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:02:24 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:02:24 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:02:24 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:02:25 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:02:25 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'What is the step-up verification requirement for high risk transactions?'
+2026-09-17 01:02:25 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:02:26 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:02:26 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:02:26 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:02:26 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:02:27 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 01:02:27 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 01:02:27 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:02:29 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:02:29 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'
+2026-09-17 01:05:36 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:05:36 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:05:37 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:05:37 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:05:37 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:05:37 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:05:37 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:06:45 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:06:45 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:06:45 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:06:45 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:06:46 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:06:46 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:06:46 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:06:46 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'What is the step-up verification requirement for high risk transactions?'
+2026-09-17 01:06:46 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:06:47 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:06:48 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:06:48 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:06:48 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:06:48 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 01:06:49 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 01:06:49 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:06:51 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:06:51 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'
+2026-09-17 01:10:01 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:10:01 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:10:01 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:10:01 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:10:01 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:10:01 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:10:02 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:10:02 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'What is the step-up verification requirement for high risk transactions?'
+2026-09-17 01:10:02 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:10:02 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:10:02 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:10:03 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:10:03 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:10:03 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'Why is this risky?'
+2026-09-17 01:10:03 | INFO     | rag_hybrid | Hybrid RAG retrieved 2 policy chunks for query: 'device sharing'
+2026-09-17 01:10:03 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'fraud device sharing transaction amount high risk SOP'
+2026-09-17 01:10:05 | INFO     | rag_hybrid | HybridRAGRetriever successfully indexed 14 chunks across 4 documents.
+2026-09-17 01:10:05 | INFO     | rag_hybrid | Hybrid RAG retrieved 3 policy chunks for query: 'device sharing velocity AML SOP'

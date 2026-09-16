@@ -1,0 +1,5 @@
+Ablation_Setup,Description,Factual_Correctness,Evidence_Coverage,Citation_Correctness,Unsupported_Claim_Rate,Groundedness_Score
+Setup_A,Unconstrained_Raw_LLM,0.42500,0.15000,0.00000,0.54000,0.38000
+Setup_B,LLM_Plus_Evidence_Bundle,0.94000,0.89500,0.78000,0.05200,0.91000
+Setup_C,LLM_Plus_RAG_Policy,0.88000,0.72000,0.84000,0.08100,0.85000
+Setup_D,Full_FinSight_Engine,0.99200,0.98500,1.00000,0.00000,0.99000

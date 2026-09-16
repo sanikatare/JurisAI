@@ -1,0 +1,378 @@
+2026-09-16 18:17:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-16 18:17:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-16 18:17:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-16 18:17:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-16 18:17:14 | INFO     | clean | drop_uninformative_columns: Dropped 4 columns that are 100% missing or constant: ['fully_empty_col', 'TransactionAmt', 'constant_col', 'mostly_missing_col']
+2026-09-16 18:17:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-16 18:17:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-16 18:17:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-16 18:17:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-16 18:17:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-16 18:17:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-16 18:17:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-16 18:17:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-16 18:17:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-16 18:17:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-16 18:17:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-16 18:17:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-16 18:17:14 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 â€” do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-16 18:17:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-16 18:17:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-16 18:17:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-16 18:17:28 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-16 18:17:28 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-16 18:17:28 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-16 18:17:28 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-16 18:17:28 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-16 18:17:28 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-16 18:17:28 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-16 18:17:28 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-16 18:17:28 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-16 18:17:28 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-16 18:17:28 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-16 18:17:28 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-16 18:17:28 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-16 18:17:28 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-16 18:17:28 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-16 18:17:28 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-16 18:17:28 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-16 18:17:28 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 â€” do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-16 18:17:28 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-16 18:17:28 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-16 18:17:28 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:05:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:05:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:05:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:05:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:05:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:05:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:05:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:05:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:05:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:05:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:05:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:05:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:05:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:05:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:05:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:05:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:05:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:05:14 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:05:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:05:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:05:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:09:49 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:09:49 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:09:49 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:09:49 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:09:49 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:09:49 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:09:49 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:09:49 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:09:49 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:09:49 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:09:49 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:09:49 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:09:49 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:09:49 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:09:49 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:09:49 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:09:49 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:09:49 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:09:49 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:09:49 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:09:49 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:16:55 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:16:55 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:16:55 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:16:55 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:16:55 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:16:55 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:16:55 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:16:55 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:16:55 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:16:55 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:16:55 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:16:55 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:16:55 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:16:55 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:16:55 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:16:55 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:16:55 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:16:55 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:16:55 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:16:55 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:16:55 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:17:26 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:17:26 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:17:26 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:17:26 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:17:26 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:17:26 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:17:26 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:17:26 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:17:26 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:17:26 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:17:26 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:17:26 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:17:26 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:17:26 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:17:26 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:17:26 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:17:26 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:17:26 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:17:26 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:17:26 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:17:26 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:23:53 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:23:53 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:23:53 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:23:53 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:23:53 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:23:53 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:23:53 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:23:53 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:23:53 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:23:53 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:23:53 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:23:53 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:23:53 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:23:53 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:23:53 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:23:53 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:23:53 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:23:53 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:23:53 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:23:53 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:23:53 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:24:19 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:24:19 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:24:19 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:24:19 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:24:19 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:24:19 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:24:19 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:24:19 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:24:19 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:24:19 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:24:19 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:24:19 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:24:19 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:24:19 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:24:19 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:24:19 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:24:19 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:24:19 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:24:19 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:24:19 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:24:19 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:25:45 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:25:45 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:25:45 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:25:45 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:25:45 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:25:45 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:25:45 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:25:45 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:25:45 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:25:45 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:25:45 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:25:45 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:25:45 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:25:45 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:25:45 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:25:45 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:25:45 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:25:45 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:25:45 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:25:45 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:25:45 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:32:44 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:32:44 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:32:44 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:32:44 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:32:44 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:32:44 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:32:44 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:32:44 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:32:44 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:32:44 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:32:44 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:32:44 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:32:44 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:32:44 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:32:44 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:32:44 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:32:44 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:32:44 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:32:44 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:32:44 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:32:44 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:36:26 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:36:26 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:36:26 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:36:26 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:36:26 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:36:26 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:36:26 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:36:26 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:36:26 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:36:26 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:36:26 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:36:26 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:36:26 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:36:26 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:36:26 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:36:26 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:36:26 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:36:26 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:36:26 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:36:26 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:36:26 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:39:02 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:39:02 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:39:02 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:39:02 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:39:02 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:39:02 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:39:02 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:39:02 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:39:02 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:39:02 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:39:02 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:39:02 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:39:02 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:39:02 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:39:02 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:39:02 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:39:02 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:39:02 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:39:02 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:39:02 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:39:02 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:42:37 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:42:37 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:42:37 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:42:37 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:42:37 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:42:37 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:42:37 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:42:37 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:42:37 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:42:37 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:42:37 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:42:37 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:42:37 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:42:37 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:42:37 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:42:37 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:42:37 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:42:37 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:42:37 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:42:37 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:42:37 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:53:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:53:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:53:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:53:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:53:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:53:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:53:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:53:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:53:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:53:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:53:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:53:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:53:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:53:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:53:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:53:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:53:14 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:53:14 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:53:14 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:53:14 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:53:14 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:53:46 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:53:46 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:53:46 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:53:46 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:53:46 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:53:46 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:53:46 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:53:46 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:53:46 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:53:46 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:53:46 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:53:46 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:53:46 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:53:46 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:53:46 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:53:46 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 00:53:46 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 00:53:46 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 00:53:47 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 00:53:47 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 00:53:47 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:02:28 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:02:28 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:02:28 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:02:28 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:02:28 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:02:28 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:02:28 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:02:28 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:02:28 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:02:28 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:02:28 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:02:28 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:02:28 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:02:28 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:02:28 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:02:28 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:02:28 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:02:28 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 01:02:28 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:02:28 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:02:28 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:06:50 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:06:50 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:06:50 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:06:50 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:06:50 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:06:50 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:06:50 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:06:50 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:06:50 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:06:50 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:06:50 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:06:50 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:06:50 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:06:50 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:06:50 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:06:50 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:06:50 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:06:50 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 01:06:50 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:06:50 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:06:50 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:10:04 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:10:04 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:10:04 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:10:04 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:10:04 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:10:04 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:10:04 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:10:04 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:10:04 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:10:04 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:10:04 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:10:04 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:10:04 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:10:04 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 40.00% missing -> filled with median (3.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:10:04 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 40.00% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:10:04 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.
+2026-09-17 01:10:04 | INFO     | clean | drop_uninformative_columns: Dropped 3 columns that are 100% missing or constant: ['fully_empty_col', 'constant_col', 'mostly_missing_col']
+2026-09-17 01:10:04 | INFO     | clean | flag_duplicate_rows: 1 fully duplicate rows detected and RETAINED. Manual review recommended before Phase 3 — do not assume these are safe to drop without checking whether they represent legitimate repeated transactions.
+2026-09-17 01:10:04 | INFO     | clean | impute_numeric_with_missingness_flag: partial_missing_numeric: 33.33% missing -> filled with median (2.0), added partial_missing_numeric_was_missing to preserve the signal.
+2026-09-17 01:10:04 | INFO     | clean | impute_categorical_as_explicit_category: partial_missing_categorical: 33.33% missing -> filled with explicit 'missing' category (not a mode/blind-zero fill, so the model can learn from missingness itself).
+2026-09-17 01:10:04 | INFO     | clean | standardize_categorical_formatting: Trimmed whitespace on all object columns.

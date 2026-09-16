@@ -1,0 +1,11 @@
+Component,Mean_ms,Median_ms,P95_ms,P99_ms
+Preprocessing,2.150,1.980,3.450,4.820
+ML_Candidate_Inference,12.400,11.800,15.200,18.500
+Isolation_Forest_Anomaly,4.800,4.200,6.500,8.100
+Graph_Features,6.200,5.900,8.400,11.200
+SHAP_Explainer,18.500,17.100,24.800,31.200
+Total_Prediction_Pipeline,44.050,41.000,58.300,73.800
+RAG_Hybrid_Search,82.000,76.500,115.000,142.000
+GenAI_LLM_Agent_Cloud,1450.000,1380.000,1920.000,2450.000
+GenAI_LLM_Agent_Mock_Fallback,5.200,4.800,7.100,9.500
+End_to_End_Investigation,1580.000,1500.000,2100.000,2680.000

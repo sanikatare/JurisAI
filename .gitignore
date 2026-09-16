@@ -1,0 +1,27 @@
+# Secrets
+.env
+
+# Data (large / not meant for git — see README for download instructions)
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Generated reports (regenerate via pipeline, don't hand-edit or commit stale ones)
+reports/data_profile.json
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

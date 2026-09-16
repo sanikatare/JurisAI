@@ -1,0 +1,4 @@
+window_index,window_name,start_time,end_time,sample_count,fraud_count,fraud_rate,pr_auc,recall_at_1pct_fpr,recall,precision,f1,roc_auc,fpr
+1,Window_1,2081851.0,2259808.0,167,5,0.02994,1.0,1.0,1.0,1.0,1.0,1.0,0.0
+2,Window_2,2261006.0,2414999.0,167,4,0.02395,1.0,1.0,1.0,1.0,1.0,1.0,0.0
+3,Window_3,2416101.0,2591240.0,166,6,0.03614,1.0,1.0,1.0,1.0,1.0,1.0,0.0

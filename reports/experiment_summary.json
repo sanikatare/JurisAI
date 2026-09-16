@@ -1,0 +1,373 @@
+{
+  "dataset_type": "SYNTHETIC_DEMO_FIXTURE",
+  "is_synthetic": true,
+  "sample_counts": {
+    "total": 2500,
+    "train": 1500,
+    "val": 500,
+    "test": 500
+  },
+  "experiment1_baseline": {
+    "logistic_regression": {
+      "pr_auc": 0.99708,
+      "recall_at_1pct_fpr": 1.0,
+      "recall_at_5pct_fpr": 1.0,
+      "threshold_1pct_fpr": 0.22556,
+      "threshold_5pct_fpr": 0.22556,
+      "precision": 1.0,
+      "recall": 0.94444,
+      "f1": 0.97143,
+      "roc_auc": 0.99988,
+      "fpr": 0.0,
+      "fnr": 0.05556,
+      "decision_threshold": 0.5,
+      "confusion_matrix": {
+        "tn": 482,
+        "fp": 0,
+        "fn": 1,
+        "tp": 17
+      },
+      "sample_count": 500,
+      "positive_count": 18,
+      "inference_latency_ms_per_sample": 0.00688
+    },
+    "random_forest": {
+      "pr_auc": 1.0,
+      "recall_at_1pct_fpr": 1.0,
+      "recall_at_5pct_fpr": 1.0,
+      "threshold_1pct_fpr": 0.43514,
+      "threshold_5pct_fpr": 0.43514,
+      "precision": 1.0,
+      "recall": 0.88889,
+      "f1": 0.94118,
+      "roc_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.11111,
+      "decision_threshold": 0.5,
+      "confusion_matrix": {
+        "tn": 482,
+        "fp": 0,
+        "fn": 2,
+        "tp": 16
+      },
+      "sample_count": 500,
+      "positive_count": 18,
+      "inference_latency_ms_per_sample": 0.12943
+    },
+    "xgboost": {
+      "pr_auc": 1.0,
+      "recall_at_1pct_fpr": 1.0,
+      "recall_at_5pct_fpr": 1.0,
+      "threshold_1pct_fpr": 0.83716,
+      "threshold_5pct_fpr": 0.0024,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "decision_threshold": 0.5,
+      "confusion_matrix": {
+        "tn": 482,
+        "fp": 0,
+        "fn": 0,
+        "tp": 18
+      },
+      "sample_count": 500,
+      "positive_count": 18,
+      "inference_latency_ms_per_sample": 0.0302
+    }
+  },
+  "experiment2_imbalance": {
+    "none": {
+      "pr_auc": 1.0,
+      "recall_at_1pct_fpr": 1.0,
+      "recall_at_5pct_fpr": 1.0,
+      "threshold_1pct_fpr": 0.43514,
+      "threshold_5pct_fpr": 0.43514,
+      "precision": 1.0,
+      "recall": 0.88889,
+      "f1": 0.94118,
+      "roc_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.11111,
+      "decision_threshold": 0.5,
+      "confusion_matrix": {
+        "tn": 482,
+        "fp": 0,
+        "fn": 2,
+        "tp": 16
+      },
+      "sample_count": 500,
+      "positive_count": 18,
+      "inference_latency_ms_per_sample": 0.0
+    },
+    "class_weight": {
+      "pr_auc": 1.0,
+      "recall_at_1pct_fpr": 1.0,
+      "recall_at_5pct_fpr": 1.0,
+      "threshold_1pct_fpr": 0.48468,
+      "threshold_5pct_fpr": 0.48468,
+      "precision": 1.0,
+      "recall": 0.94444,
+      "f1": 0.97143,
+      "roc_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.05556,
+      "decision_threshold": 0.5,
+      "confusion_matrix": {
+        "tn": 482,
+        "fp": 0,
+        "fn": 1,
+        "tp": 17
+      },
+      "sample_count": 500,
+      "positive_count": 18,
+      "inference_latency_ms_per_sample": 0.0
+    },
+    "smote": {
+      "pr_auc": 1.0,
+      "recall_at_1pct_fpr": 1.0,
+      "recall_at_5pct_fpr": 1.0,
+      "threshold_1pct_fpr": 0.48468,
+      "threshold_5pct_fpr": 0.48468,
+      "precision": 1.0,
+      "recall": 0.94444,
+      "f1": 0.97143,
+      "roc_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.05556,
+      "decision_threshold": 0.5,
+      "confusion_matrix": {
+        "tn": 482,
+        "fp": 0,
+        "fn": 1,
+        "tp": 17
+      },
+      "sample_count": 500,
+      "positive_count": 18,
+      "inference_latency_ms_per_sample": 0.0
+    }
+  },
+  "experiment3_anomaly_fusion": {
+    "model_a_supervised_alone": {
+      "pr_auc": 1.0,
+      "recall_at_1pct_fpr": 1.0,
+      "recall_at_5pct_fpr": 1.0,
+      "threshold_1pct_fpr": 0.48468,
+      "threshold_5pct_fpr": 0.48468,
+      "precision": 1.0,
+      "recall": 0.94444,
+      "f1": 0.97143,
+      "roc_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.05556,
+      "decision_threshold": 0.5,
+      "confusion_matrix": {
+        "tn": 482,
+        "fp": 0,
+        "fn": 1,
+        "tp": 17
+      },
+      "sample_count": 500,
+      "positive_count": 18,
+      "inference_latency_ms_per_sample": 0.0
+    },
+    "model_b_anomaly_alone": {
+      "pr_auc": 0.19293,
+      "recall_at_1pct_fpr": 0.11111,
+      "recall_at_5pct_fpr": 0.33333,
+      "threshold_1pct_fpr": 0.78631,
+      "threshold_5pct_fpr": 0.71778,
+      "precision": 0.125,
+      "recall": 0.83333,
+      "f1": 0.21739,
+      "roc_auc": 0.85408,
+      "fpr": 0.21784,
+      "fnr": 0.16667,
+      "decision_threshold": 0.5,
+      "confusion_matrix": {
+        "tn": 377,
+        "fp": 105,
+        "fn": 3,
+        "tp": 15
+      },
+      "sample_count": 500,
+      "positive_count": 18,
+      "inference_latency_ms_per_sample": 0.0
+    },
+    "model_c_supervised_plus_anomaly": {
+      "pr_auc": 0.99206,
+      "recall_at_1pct_fpr": 1.0,
+      "recall_at_5pct_fpr": 1.0,
+      "threshold_1pct_fpr": 0.31852,
+      "threshold_5pct_fpr": 0.31852,
+      "precision": 1.0,
+      "recall": 0.94444,
+      "f1": 0.97143,
+      "roc_auc": 0.99965,
+      "fpr": 0.0,
+      "fnr": 0.05556,
+      "decision_threshold": 0.5,
+      "confusion_matrix": {
+        "tn": 482,
+        "fp": 0,
+        "fn": 1,
+        "tp": 17
+      },
+      "sample_count": 500,
+      "positive_count": 18,
+      "inference_latency_ms_per_sample": 0.0
+    },
+    "pr_auc_delta": -0.00794,
+    "recall_at_1pct_fpr_delta": 0.0
+  },
+  "experiment4_graph_ablation": {
+    "model_a_tabular": {
+      "pr_auc": 0.99708,
+      "recall_at_1pct_fpr": 1.0,
+      "recall_at_5pct_fpr": 1.0,
+      "threshold_1pct_fpr": 0.41445,
+      "threshold_5pct_fpr": 0.41445,
+      "precision": 1.0,
+      "recall": 0.94444,
+      "f1": 0.97143,
+      "roc_auc": 0.99988,
+      "fpr": 0.0,
+      "fnr": 0.05556,
+      "decision_threshold": 0.5,
+      "confusion_matrix": {
+        "tn": 482,
+        "fp": 0,
+        "fn": 1,
+        "tp": 17
+      },
+      "sample_count": 500,
+      "positive_count": 18,
+      "inference_latency_ms_per_sample": 0.0
+    },
+    "model_b_tabular_plus_behavioral": {
+      "pr_auc": 0.99708,
+      "recall_at_1pct_fpr": 1.0,
+      "recall_at_5pct_fpr": 1.0,
+      "threshold_1pct_fpr": 0.3828,
+      "threshold_5pct_fpr": 0.3828,
+      "precision": 1.0,
+      "recall": 0.88889,
+      "f1": 0.94118,
+      "roc_auc": 0.99988,
+      "fpr": 0.0,
+      "fnr": 0.11111,
+      "decision_threshold": 0.5,
+      "confusion_matrix": {
+        "tn": 482,
+        "fp": 0,
+        "fn": 2,
+        "tp": 16
+      },
+      "sample_count": 500,
+      "positive_count": 18,
+      "inference_latency_ms_per_sample": 0.0
+    },
+    "model_c_tabular_plus_behavioral_plus_graph": {
+      "pr_auc": 1.0,
+      "recall_at_1pct_fpr": 1.0,
+      "recall_at_5pct_fpr": 1.0,
+      "threshold_1pct_fpr": 0.48468,
+      "threshold_5pct_fpr": 0.48468,
+      "precision": 1.0,
+      "recall": 0.94444,
+      "f1": 0.97143,
+      "roc_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.05556,
+      "decision_threshold": 0.5,
+      "confusion_matrix": {
+        "tn": 482,
+        "fp": 0,
+        "fn": 1,
+        "tp": 17
+      },
+      "sample_count": 500,
+      "positive_count": 18,
+      "inference_latency_ms_per_sample": 0.0
+    },
+    "graph_feature_pr_auc_delta": 0.00292
+  },
+  "gnn_gate_decision": {
+    "decision": "NO-GO",
+    "recommendation": "Maintain graph feature engineering as the primary relational approach; do NOT implement full GNN.",
+    "justification": "Graph feature engineering was evaluated as the appropriate relational approach for the selected dataset; a full GNN was not justified based on graph density/performance/complexity (PR-AUC delta: +0.0029 vs threshold 0.01, avg_degree: 4.32, repeat_card_ratio: 0.8012).",
+    "metrics_evaluated": {
+      "graph_feature_pr_auc_delta": 0.00292,
+      "avg_degree": 4.3221,
+      "repeat_card_ratio": 0.8012,
+      "cond_performance_passed": false,
+      "cond_density_passed": true
+    }
+  },
+  "calibration": {
+    "brier_score_raw": 0.007807,
+    "brier_score_calibrated": 0.001142,
+    "brier_improvement_pct": 85.37,
+    "calibration_curve_raw": {
+      "prob_true": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prob_pred": [
+        0.03537,
+        0.13114,
+        0.24973,
+        0.32822,
+        0.49786,
+        0.55602,
+        0.63561,
+        0.74283,
+        0.8668
+      ]
+    },
+    "calibration_curve_calibrated": {
+      "prob_true": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "prob_pred": [
+        2e-05,
+        0.75399,
+        0.99514
+      ]
+    }
+  },
+  "optimal_threshold": {
+    "selected_threshold": 0.7623,
+    "selection_criterion": "max_f1",
+    "selection_reason": "Maximized F1 score",
+    "f1": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "fpr": 0.0,
+    "fnr": 0.0,
+    "num_alerts": 15,
+    "alert_rate": 0.03
+  },
+  "cost_analysis": {
+    "cost_optimal_threshold": 0.7623,
+    "min_expected_loss": 0.0
+  },
+  "plot_files": [
+    "reports\\figures\\Final_Candidate_RF_pr_curve.png",
+    "reports\\figures\\Final_Candidate_RF_roc_curve.png",
+    "reports\\figures\\Final_Candidate_RF_feature_importance.png",
+    "reports\\figures\\Final_Candidate_RF_temporal_drift.png",
+    "reports\\figures\\Final_Candidate_RF_calibration_curve.png"
+  ]
+}

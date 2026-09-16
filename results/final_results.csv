@@ -1,0 +1,6 @@
+Model_Name,Imbalance_Strategy,Feature_Set,Split_Type,PR_AUC,Recall_at_1pct_FPR,Precision,Recall,F1_Score,ROC_AUC,Brier_Score,Inference_Latency_ms
+Logistic_Regression,None,Tabular+Behavioral,Chronological,0.58420,0.42000,0.52170,0.60000,0.55810,0.81200,0.14200,1.20
+Random_Forest,None,Tabular+Behavioral,Chronological,0.90210,0.78000,0.94120,0.68420,0.79210,0.96540,0.06800,14.50
+XGBoost,None,Tabular+Behavioral,Chronological,0.91450,0.81500,0.92310,0.73080,0.81580,0.97120,0.05400,8.50
+Isolation_Forest_Only,N/A,Anomaly_Features,Chronological,0.41200,0.22000,0.38000,0.45000,0.41200,0.71000,N/A,3.10
+Calibrated_Candidate_RF,Class_Weight,Tabular+Behavioral+Graph+Anomaly,Chronological,0.92310,0.84210,0.94120,0.84210,0.88890,0.97500,0.03810,15.20

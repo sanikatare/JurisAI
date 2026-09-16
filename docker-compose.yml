@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: finsight-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_DB: finsight_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/schema/001_create_tables.sql:/docker-entrypoint-initdb.d/001_create_tables.sql
+      - ./database/schema/002_create_ml_tables.sql:/docker-entrypoint-initdb.d/002_create_ml_tables.sql
+      - ./database/schema/003_create_monitoring_tables.sql:/docker-entrypoint-initdb.d/003_create_monitoring_tables.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d finsight_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: finsight-backend
+    ports:
+      - "8000:8000"
+    environment:
+      ENVIRONMENT: production
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_PASSWORD: postgrespassword
+      DB_NAME: finsight_db
+      DATABASE_URL: postgresql://postgres:postgrespassword@postgres:5432/finsight_db
+      LLM_PROVIDER: mock
+      MODEL_VERSION: v1.0.0
+      LOG_LEVEL: INFO
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
