@@ -208,11 +208,7 @@ JurisAI/
 
 ---
 
-## Getting Started
-
 ### Prerequisites
-
-Make sure the following are installed:
 
 * Python 3.10+
 * Node.js 18+
@@ -312,22 +308,6 @@ docker compose up --build
 
 ---
 
-## Design Philosophy
-
-JurisAI is designed as a modern legal-tech workspace rather than a simple document summarization tool.
-
-The interface focuses on:
-
-* Document-centric workflows
-* Clear information hierarchy
-* Minimal and professional visual design
-* Explainable AI interactions
-* Evidence-based responses
-* Fast navigation
-* Responsive user experience
-
----
-
 ## Future Scope
 
 Potential future improvements include:
@@ -345,8 +325,3 @@ Potential future improvements include:
 * Cloud deployment and scalable infrastructure
 
 ---
-
-
-
-
-[1]: https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories?utm_source=chatgpt.com "Best practices for repositories - GitHub Docs"
